@@ -23,7 +23,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatMenuModule } from '@angular/material/menu';
-
+import { CdkAccordionModule } from '@angular/cdk/accordion';
 @NgModule({
   declarations: [],
   imports: [
@@ -51,6 +51,7 @@ import { MatMenuModule } from '@angular/material/menu';
     MatRadioModule,
     MatListModule,
     MatIconModule,
+    CdkAccordionModule,
   ],
   exports: [
     MatButtonModule,
@@ -76,6 +77,7 @@ import { MatMenuModule } from '@angular/material/menu';
     MatRadioModule,
     MatListModule,
     MatIconModule,
+    CdkAccordionModule,
   ],
 })
 export class MaterialModule {}
